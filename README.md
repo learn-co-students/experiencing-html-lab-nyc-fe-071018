@@ -94,7 +94,7 @@ We see:
 ![HTML file with non-marked-up content displays on one line](https://curriculum-content.s3.amazonaws.com/web-development/intro-the-shell/non_marked_up_list.png)
 
 As noted above, the browser doesn't know that items on new lines means "items
-in a list." Browsers ignore when HTML has is split onto new lines. We cover why
+in a list." Browsers ignore when HTML is split onto new lines. We'll cover why
 a little later in this README. Since the browser doesn't know we intend this to
 be a list **and** since browsers ignore when _content_ is split onto different
 lines, it displays all the _content_ on one line. Not what we wanted.
@@ -140,7 +140,7 @@ Again, you don't need to memorize these terms yet, but we want to help you
 develop an intuition for how these words are used. You will be using these
 terms when speaking with other developers and HTML authors.
 
-It may not seem like we did much work, but idea of a method for "marking up"
+It may not seem like we did much work, but the idea of a method for "marking up"
 _content_ and linking it is the foundation of the web. It's what made Tim
 Berners-Lee's reputation. And **you** just experienced Sir Tim's great insight.
 **AWESOME**.
@@ -189,9 +189,9 @@ HTML authors would expect our code from the previous section to be arranged:
 
 Update your document. Save it and refresh your **viewing tab**.
 
-Remember earlier when noticed browsers ignored _content_ when it was on
+Remember earlier when we noticed browsers ignored _content_ when it was on
 separate lines? Cleaning up your code requires splitting lines, adding spaces,
-and adding tabs. Browser ignore those characters that _humans_ use to make
+and adding tabs. Browsers ignore those characters that _humans_ use to make
 their HTML reader-friendly.
 
 ### Ordered to Unordered
@@ -206,8 +206,8 @@ Here we return to a "bulleted" unordered list.
 
 > **ASIDE**: If you've been following along closely, you  might be wondering, if
 > we didn't have a `<ul>` tag around our `<li>` items earlier, how did the
-> browser know how treat those `<li>` as if they were in a `<ul>`? When browsers
-> detect problematic HTML they guess! This can lead to some very strange results
+> browser know how to treat those `<li>` as if they were in a `<ul>`? When browsers
+> detect problematic HTML, they guess! This can lead to some very strange results
 > when you make an error, but if you write _invalid_ HTML, they try to recover.
 > HTML validity will be discussed further soon!
 
@@ -278,7 +278,7 @@ tweak, and adjust your _source text_ until the _rendered text_ displayed in the
 browser is to your
 liking. 
 
-In upcoming lessons, we will learn additional tags which provide us an more
+In upcoming lessons, we will learn additional tags which provide us with more
 ways to describe our content.  We might be starting with lists today, but soon
 we'll be on this in exciting ways!
 
